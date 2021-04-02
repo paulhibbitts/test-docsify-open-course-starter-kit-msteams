@@ -78,6 +78,7 @@
             name       : 'Docsify Open Course Starter Kit',
             homepage   : 'home.md',
             loadSidebar: 'sidebar.md',
+            loadNavbar : !(getParameterByName('embedded') === 'true'),
             externalLinkTarget: '_blank',
 
             // SIDEBAR NAVIGATION
@@ -85,7 +86,7 @@
             auto2top   : true,
             maxLevel   : 3,
             subMaxLevel: 3,
-            hideSidebar: getParameterByName('hidesidebar') === 'true',
+            hideSidebar: getParameterByName('embedded') === 'true',
 
             // PLUGIN SETTINGS
             // -----------------------------------------------------------------
