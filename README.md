@@ -30,7 +30,7 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 🔗 Change Linked GitHub Repository
 ---  
 1. Edit the file index.html in your repository
-2. Find the sample GitHub repository URL https://github.com/hibbitts-design/docsify-open-course-starter-kit and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/Docsify/blob/master/docs/
+2. Find the current GitHub repository URL https://github.com/paulhibbitts/test-docsify-open-course-starter-kit-canvaslms/tree/master/docs/ and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/Docsify/blob/master/docs/
 3. Commit your changes.
 
 💻 Editing your Docsify Site Locally
