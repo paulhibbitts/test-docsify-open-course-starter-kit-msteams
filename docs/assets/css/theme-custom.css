@@ -23,7 +23,7 @@
   color: white;
   height: 38px;
   padding: 8px;
-  background-color: #6264a7;
+  background-color: var(--link-color);
   text-decoration: none;
   border-radius: .25rem;
 }
@@ -140,4 +140,37 @@
     margin-top: 1.00rem;
     padding-left: 0.5rem;
     background: #666666;
+}
+
+.markdown-section .accordion {
+    margin-top: 1.05rem;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #CCCCCC;
+    border-radius: .15rem;
+}
+
+.markdown-section details {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.markdown-section summary {
+  cursor: pointer;
+  color: var(--link-color);
+  padding: 0;
+  background-color: #FFFFFF;
+  h1, h2, h3 {
+    margin: 0;
+    display: inline-block;
+  }
 }
