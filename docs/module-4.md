@@ -1,3 +1,5 @@
+## How to explore and communicate possible design solutions?
+
 ![Wireframe](assets/images/6968244538_4c0f7c7e64_k.jpg ':class=banner-image')
 
 ### Summaries and Questions  
