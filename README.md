@@ -94,21 +94,20 @@ For example, here is a [Docsify Open Course Site hosted within a Canvas course](
 | :warning:        Please note that once hosted within your LMS changes made to the source GitHub repository are no longer automatically synced to your hosted Docsify site. Any file changes made must be manually uploaded to the LMS file library area.   |
 |--------------------------------------------------------------------------------------------|
 
+📚 Docsify and Markdown Resources
+---
+**Docsify**  
+[Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)  
+[Docsify Basics by MichaelCurrin](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=docsify-basics)  
+
+**Markdown**  
+[Markdown Cheat Sheet](https://warpedvisions.org/projects/markdown-cheat-sheet/)  
+[Markdown Guide](https://www.markdownguide.org/)  
 
 📼 Video Walkthrough of Local Docsify Install/Config
 ---
 [![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
 _Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran_
-
-📗 Learn More about Docsify
----
-[Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)  
-[Docsify Basics by MichaelCurrin](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=docsify-basics)  
-
-📘 Learn More about Markdown
----
-[Markdown Cheat Sheet](https://warpedvisions.org/projects/markdown-cheat-sheet/)  
-[Markdown Guide](https://www.markdownguide.org/)  
 
 🙇‍Credits and Special Thanks
 ---
