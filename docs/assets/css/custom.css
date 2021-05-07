@@ -4,13 +4,12 @@ Put your custom CSS in this file.
 ===============================================================================================================================
 */
 
-/* CSS to better visually match Docsify pages within Canvas LMS (uncomment to use) */
+/* CSS to better visually match Docsify pages within MS Teams Group (uncomment to use) */
 
-/*
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body .markdown-section {
-    font-family: "Lato","Helvetica Neue",Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
     line-height: 1.4;
     font-size: 16px;
 }
@@ -19,7 +18,6 @@ body .markdown-section {
     text-decoration: none;
 }
 
-.markdown-section a:hover:not(.button)  {
+.markdown-section a:hover  {
     text-decoration: underline;
 }
-*/

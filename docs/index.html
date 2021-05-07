@@ -25,14 +25,14 @@
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
     <style>
       :root {
-        --base-font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+        --base-font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+
         --base-line-height: 1.4;
-        --base-font-size: 1rem;
+        --base-font-size: 1.1rem;
 
         --heading-h2-border-style: none;
         --heading-h1-margin: 1rem 0rem -0.4rem 0rem;
@@ -59,12 +59,12 @@
         --sidebar-nav-link-font-weight--active: bold;
 
         --link-color: #6264a7;
-        --link-text-decoration: none;
+        --link-text-decoration: underline;
         --link-text-decoration--hover: underline;
 
-        // Link colour to match visual styling of Canvas LMS
-        // --link-color: #008EE2;
-        
+        // Link colour to match visual styling of MS Teams Group
+        // --link-color: #6264a7;
+
         --pagination-title-color: #0B87DA;
 
       }
@@ -76,7 +76,7 @@
     <div id="app"></div>
     <script>
       // Replace the below URL with your own GitHub Repository URL
-      var yourRepo = 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit-msteams';
+      var yourRepo = 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit';
 
       function getParameterByName(name, url = window.location.href) {
         name = name.replace(/[\[\]]/g, '\\$&');
@@ -91,10 +91,10 @@
         window.$docsify = {
             // GENERAL SETTINGS
             // -----------------------------------------------------------------
-            name       : 'Docsify Open Course Starter Kit',
-            homepage   : 'home.md',
-            loadSidebar: 'sidebar.md',
-            loadNavbar : !(getParameterByName('embedded') === 'true'),
+            name              : 'Docsify Open Course Starter Kit',
+            homepage          : 'home.md',
+            loadSidebar       : 'sidebar.md',
+            loadNavbar        : !(getParameterByName('embedded') === 'true'),
             externalLinkTarget: '_top',
 
             // SIDEBAR NAVIGATION
@@ -126,6 +126,9 @@
                   url = yourRepo +'/blob/main/docs/' + vm.route.file
                 }
                 var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
+
+                // Adjust GitHub displayable image URL format to also work in Docsify
+                html = html.replace(new RegExp("../assets/images", 'ig'), "assets/images");
 
                 if (!(getParameterByName('hidegitlink') === 'true')) {
                   return html + '<br />' + '\n' + '<hr>' + '\n\n' + editHtml
